@@ -1,0 +1,29 @@
+.venv/
+node_modules/
+__pycache__/
+catboost_info/
+*.pyc
+
+# Локальные данные соревнования
+data/
+*.parquet
+
+# Временные и служебные файлы
+kernel-test.json
+kernel-test2.json
+*.tmp
+
+# Промежуточные файлы разработки
+append_*.py
+fix_*.py
+patch_*.py
+repair_*.py
+replace_*.py
+insert_*.py
+clean_*.py
+cleanup_*.py
+
+# Корневые локальные сабмиты и служебные CSV
+submission_route_time_agg*.csv
+!artifacts/**/*.csv
+outputs/

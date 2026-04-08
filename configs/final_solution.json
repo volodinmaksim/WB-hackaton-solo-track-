@@ -1,0 +1,26 @@
+{
+  "model_name": "lightgbm_smoothing_alpha20",
+  "val_horizon": 8,
+  "alpha": 20.0,
+  "base_features": [
+    "route_id",
+    "hour",
+    "minute",
+    "hour_slot",
+    "dayofweek",
+    "day",
+    "month",
+    "is_weekend",
+    "is_month_start",
+    "is_month_end"
+  ],
+  "aggregate_features": [
+    "target_smooth_route",
+    "target_smooth_route_hour",
+    "target_smooth_route_dow",
+    "target_smooth_route_hour_dow",
+    "target_smooth_global_hour",
+    "target_smooth_global_dow"
+  ],
+  "known_public_score": 0.3608341250041473
+}

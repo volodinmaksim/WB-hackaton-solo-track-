@@ -1,0 +1,19 @@
+{
+  "name": "wb-hackathon-solo-track",
+  "version": "1.0.0",
+  "description": "Reproducible solution and presentation for WB Hackathon solo track",
+  "main": "run_final_solution.py",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:slides": "node presentation/wb_hackathon_solution.js"
+  },
+  "keywords": [],
+  "author": "maksi",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
