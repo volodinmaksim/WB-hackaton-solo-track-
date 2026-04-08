@@ -108,20 +108,3 @@ python run_final_solution.py ^
 - дополнительные устойчивые агрегаты по `month / is_weekend / dayofweek + month`
 
 Краткие результаты собраны в [leaderboard_notes.md](./leaderboard_notes.md).
-
-## Презентация
-
-Ссылка на репозиторий должна быть размещена и в самой презентации:
-
-- GitHub: [https://github.com/volodinmaksim/WB-hackaton-solo-track-](https://github.com/volodinmaksim/WB-hackaton-solo-track-)
-
-## Проверка репозитория
-
-Для проверки решения в репозитории есть:
-
-- работающий код
-- README
-- отчёт
-- конфиг финальной модели
-- лучший сабмит
-- презентация и её исходник
